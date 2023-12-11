@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\SuperLandscapes_Blog.Application\SuperLandscapes_Blog.Application.csproj" />
+    <ProjectReference Include="..\SuperLandscapes_Blog.Persistence\SuperLandscapes_Blog.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
